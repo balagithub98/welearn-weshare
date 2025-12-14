@@ -271,6 +271,102 @@ export default function Home() {
         </div>
       </section>
 
+      {/* FAQ Section */}
+      <section className="py-16 px-4 bg-gradient-to-b from-gray-50 via-white to-gray-50">
+        <div className="max-w-4xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl font-bold bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 bg-clip-text text-transparent mb-4">
+              Frequently Asked Questions
+            </h2>
+            <p className="text-xl text-gray-600">
+              Everything you need to know about our DevOps course
+            </p>
+          </div>
+          <div className="space-y-4">
+            <div className="bg-gradient-to-br from-blue-50 to-indigo-100 p-6 rounded-lg shadow-md border border-blue-200">
+              <h3 className="text-xl font-semibold mb-3 bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
+                What prerequisites do I need for this course?
+              </h3>
+              <p className="text-gray-700">
+                While no prior DevOps experience is required, having basic knowledge of Linux commands and 
+                software development concepts will be helpful. We start from the fundamentals and gradually 
+                progress to advanced topics, making it suitable for beginners and intermediate learners.
+              </p>
+            </div>
+            <div className="bg-gradient-to-br from-purple-50 to-pink-100 p-6 rounded-lg shadow-md border border-purple-200">
+              <h3 className="text-xl font-semibold mb-3 bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
+                How long does it take to complete the course?
+              </h3>
+              <p className="text-gray-700">
+                The course includes approximately 94 hours of content across 10 comprehensive modules. 
+                Most students complete it in 8-12 weeks when studying part-time (10-15 hours per week). 
+                You have lifetime access, so you can learn at your own pace.
+              </p>
+            </div>
+            <div className="bg-gradient-to-br from-cyan-50 to-teal-100 p-6 rounded-lg shadow-md border border-cyan-200">
+              <h3 className="text-xl font-semibold mb-3 bg-gradient-to-r from-cyan-600 to-teal-600 bg-clip-text text-transparent">
+                Will I get a certificate upon completion?
+              </h3>
+              <p className="text-gray-700">
+                Yes! Upon successful completion of all modules and projects, you&apos;ll receive a 
+                certificate of completion that you can add to your LinkedIn profile and resume. 
+                The certificate demonstrates your proficiency in DevOps practices and tools.
+              </p>
+            </div>
+            <div className="bg-gradient-to-br from-orange-50 to-red-100 p-6 rounded-lg shadow-md border border-orange-200">
+              <h3 className="text-xl font-semibold mb-3 bg-gradient-to-r from-orange-600 to-red-600 bg-clip-text text-transparent">
+                What tools and technologies will I learn?
+              </h3>
+              <p className="text-gray-700">
+                You&apos;ll master essential DevOps tools including Docker, Kubernetes, Jenkins, GitLab CI, 
+                GitHub Actions, Terraform, Ansible, AWS, Azure, GCP, Prometheus, Grafana, and the ELK stack. 
+                We also cover best practices for security, monitoring, and infrastructure automation.
+              </p>
+            </div>
+            <div className="bg-gradient-to-br from-green-50 to-emerald-100 p-6 rounded-lg shadow-md border border-green-200">
+              <h3 className="text-xl font-semibold mb-3 bg-gradient-to-r from-green-600 to-emerald-600 bg-clip-text text-transparent">
+                Is there support available if I get stuck?
+              </h3>
+              <p className="text-gray-700">
+                Absolutely! You&apos;ll have access to our exclusive community forum where you can ask questions, 
+                share experiences, and get help from instructors and fellow students. Our instructors also 
+                provide regular office hours for live Q&A sessions.
+              </p>
+            </div>
+            <div className="bg-gradient-to-br from-violet-50 to-fuchsia-100 p-6 rounded-lg shadow-md border border-violet-200">
+              <h3 className="text-xl font-semibold mb-3 bg-gradient-to-r from-violet-600 to-fuchsia-600 bg-clip-text text-transparent">
+                Can I get a refund if I&apos;m not satisfied?
+              </h3>
+              <p className="text-gray-700">
+                Yes, we offer a 30-day money-back guarantee. If you&apos;re not satisfied with the course 
+                for any reason within the first 30 days, we&apos;ll provide a full refund, no questions asked.
+              </p>
+            </div>
+            <div className="bg-gradient-to-br from-indigo-50 to-blue-100 p-6 rounded-lg shadow-md border border-indigo-200">
+              <h3 className="text-xl font-semibold mb-3 bg-gradient-to-r from-indigo-600 to-blue-600 bg-clip-text text-transparent">
+                Are the course materials updated regularly?
+              </h3>
+              <p className="text-gray-700">
+                Yes! DevOps tools and practices evolve rapidly, so we regularly update our course content 
+                to reflect the latest industry standards and tool versions. As a student, you&apos;ll have 
+                lifetime access to all updates at no additional cost.
+              </p>
+            </div>
+            <div className="bg-gradient-to-br from-pink-50 to-rose-100 p-6 rounded-lg shadow-md border border-pink-200">
+              <h3 className="text-xl font-semibold mb-3 bg-gradient-to-r from-pink-600 to-rose-600 bg-clip-text text-transparent">
+                Will this course help me get a job in DevOps?
+              </h3>
+              <p className="text-gray-700">
+                Our course is designed to provide you with practical, job-ready skills. You&apos;ll work on 
+                real-world projects that you can showcase in your portfolio. Many of our students have successfully 
+                transitioned to DevOps roles or advanced their careers. We also provide career guidance and 
+                resume tips to help you in your job search.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-16 px-4 bg-gradient-to-r from-blue-600 to-indigo-700 text-white">
         <div className="max-w-4xl mx-auto text-center">
